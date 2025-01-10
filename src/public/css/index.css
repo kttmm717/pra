@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    border-bottom: 1px solid #ddd;
+}
+.header__inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.header__logo {
+    font-size: 36px;
+    color: #856a48;
+}
+.contact-title {
+    text-align: center;
+    font-size: 30px;
+    color: #856a48;
+    padding: 30px;
+    font-weight: normal;
+}
+.contact-form {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.contact-form__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.required {
+    color: red;
+}
+.contact-form__item--lavel {
+    color: #856a48;
+    width: 30%;
+}
+.contact-form__item--text {
+    width: 70%;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+.gender {
+    display: flex;
+}
+.firstname-input,
+.lastname-input {
+    width: 100%;
+}
+.firstname-input input,
+.lastname-input input {
+    width: 90%;
+}
+.lastname-input {
+    text-align: right;
+}
+.lastname-input div {
+    text-align: left;
+    margin-left: 10%;
+}
+.contact-form__item--input input {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #856a48;
+}
+.gender-type {
+    margin-right: 15%;
+    color: #856a48;
+}
+.email input,
+.address input,
+.buiding input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #856a48;
+}
+.tel-each {
+    width: 100%;
+}
+.tel-each input {
+    width: 90%;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #856a48;
+}
+.tel {
+    display: flex;
+    justify-content: space-between;
+}
+.third {
+    text-align: right;
+}
+.second {
+    text-align: center;
+}
+.third div {
+    text-align: left;
+    padding-left: 10%;
+}
+.second div {
+    text-align: left;
+    padding-left: 5%;
+}
+.span-left {
+    padding-left: 20px;
+}
+.span-righr {
+    padding-right: 20px;
+}
+.content-category select {
+    width: 50%;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #856a48;
+}
+.content textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #856a48;
+}
+.error {
+    color: red;
+}
+.contact-form__button {
+    text-align: center;
+}
+.contact-form__button button {
+    width: 160px;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #6a553b;
+    border-radius: 3px;
+}
